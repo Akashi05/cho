@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 env:
   EXECUTABLES: "107transfer"
-  MIRROR_URL: git@github.com:Akashi05/CHOCOLATINE2.git
+  MIRROR_URL: git@github.com:Akashi05/cho.git
 
 jobs:
     check_coding_style:
