@@ -61,6 +61,8 @@ jobs:
       steps:
         - name:
           uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
 
         - name: mirroring
           uses: pixta-dev/repository-mirroring-action@v1
